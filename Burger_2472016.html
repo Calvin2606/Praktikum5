@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Burger</title>
+<link rel="stylesheet" href="style/burger.css">
+<style>
+body {
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: beige;
+}
+h1 {
+    color: #d9534f;
+    text-align: center;
+}
+h2 {
+    color:  #5bc0de;
+}
+p {
+    padding-top: 8px;
+}
+.sidemenu {
+    display: block;
+    position: fixed;
+    height: 100%;
+    width: 250px;
+    left: 0px;
+    top: 0px;
+    background-color: #402D26;
+    color: white;
+    padding: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    z-index: 1;
+}
+.menu {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.menu-list {
+    background-color: #76B947;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    
+}
+.menu-list:hover {
+    background-color: #F19C1F;
+}
+.main {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    z-index: 2;
+}
+.burger {
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+.burger tr {
+    border: none;
+}
+.burger tr td {
+    border: none;
+    height: 25px;
+    width: 25px;
+}
+.burger-outline {
+    background-color: #402D26;
+
+}
+.burger-bun {
+    background-color: #F19C1F;
+}
+.burger-patty {
+    background-color:   #785110;
+}
+.burger-eyes-white {
+    background-color: white;
+}
+.burger-red {
+    background-color: red;
+}
+
+.burger-vege {
+    background-color: #76B947;
+}
+.hide-and-seek {
+    border-radius: 10px;
+    position: sticky;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    width: 500px;
+    padding: 20px;
+    bottom: 10px;
+    z-index: 0;
+}
+.hide-and-seek:hover {
+    background-color: #F19C1F;
+}
+</style>
+</head>
+
+<body>
+    <div class="sidemenu">
+        <div class="menu">
+            <ul>
+                <li class="menu-list"><p>2472016</li>
+                <li class="menu-list"><p>Calvin</p></li>
+                <li class="menu-list"><p>Kelas B</p></li>
+                <li class="menu-list"><p>Web Dasar</p></li>
+            </ul>
+        </div>
+    </div>
+    <div>
+        <div class="main">
+            <h1>Hi, I'm Burger 🙌</h1>
+            <table class="burger" cellspacing="0">
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="burger-outline" colspan="10"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="burger-outline"></td>
+                    <td class="burger-bun" colspan="10"></td>
+                    <td class="burger-outline"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td class="burger-outline"></td>
+                    <td class="burger-bun" colspan="2"></td>
+                    <td class="burger-eyes-white"></td>
+                    <td class="burger-outline"></td>
+                    <td class="burger-bun" colspan="4"></td>
+                    <td class="burger-eyes-white"></td>
+                    <td class="burger-outline"></td>
+                    <td class="burger-bun" colspan="2"></td>
+                    <td class="burger-outline"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td class="burger-outline"></td>
+                    <td class="burger-bun" colspan="3"></td>
+                    <td class="burger-outline" colspan="2"></td>
+                    <td class="burger-bun" colspan="4"></td>
+                    <td class="burger-outline" colspan="2"></td>
+                    <td class="burger-bun" colspan="3"></td>
+                    <td class="burger-outline"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td class="burger-outline"></td>
+                    <td class="burger-bun"></td>
+                    <td class="burger-red" colspan="2"></td>
+                    <td class="burger-bun" colspan="7"></td>
+                    <td class="burger-red" colspan="2"></td>
+                    <td class="burger-bun" colspan="2"></td>
+                    <td class="burger-outline"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td class="burger-outline"></td>
+                    <td class="burger-bun" colspan="5"></td>
+                    <td class="burger-outline" colspan="4"></td>
+                    <td class="burger-bun" colspan="5"></td>
+                    <td class="burger-outline"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td class="burger-outline"></td>
+                    <td class="burger-bun" colspan="14"></td>
+                    <td class="burger-outline"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td colspan="2"></td>
+                    <td class="burger-outline" colspan="14"></td>
+                    <td colspan="2"></td>
+                </tr>
+                <tr>
+                    <td class="burger-outline"></td>
+                    <td class="burger-patty" colspan="16"></td>
+                    <td class="burger-outline"></td>
+                </tr>
+                <tr>
+                    <td class="burger-outline"></td>
+                    <td class="burger-patty" colspan="16"></td>
+                    <td class="burger-outline"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td class="burger-outline" colspan="16"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="burger-outline"></td>
+                    <td class="burger-vege" colspan="16"></td>
+                    <td class="burger-outline"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td class="burger-outline" colspan="2"></td>
+                    <td class="burger-red" colspan="3"></td>
+                    <td class="burger-outline"></td>
+                    <td class="burger-red" colspan="4"></td>
+                    <td class="burger-outline"></td>
+                    <td class="burger-red" colspan="3"></td>
+                    <td class="burger-outline" colspan="2"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td class="burger-outline"></td>
+                    <td class="burger-bun"></td>
+                    <td class="burger-outline" colspan="3"></td>
+                    <td class="burger-bun"></td>
+                    <td class="burger-outline" colspan="4"></td>
+                    <td class="burger-bun"></td>
+                    <td class="burger-outline" colspan="3"></td>
+                    <td class="burger-bun"></td>
+                    <td class="burger-outline"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td class="burger-outline"></td>
+                    <td class="burger-bun" colspan="14"></td>
+                    <td class="burger-outline"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td class="burger-outline"></td>
+                    <td class="burger-bun" colspan="14"></td>
+                    <td class="burger-outline"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td colspan="2"></td>
+                    <td class="burger-outline" colspan="14"></td>
+                    <td colspan="2"></td>
+                </tr>
+            </table>
+            <h2>What Am I?</h2>
+            <p>I am <s>not</s> a sandwich consisting of one or more cooked patties of ground meat, usually beef, placed inside a sliced bun.</p>
+            <h2>Ingredients</h2>
+            <ul type="disc">
+                <li>Burger Bun</li>
+                <li>Beef Patty</li>
+                <li>Lettuce</li>
+                <li>Tomato</li>
+                <li>Cheese</li>
+                <li>Condiments (Ketchup, Mayo, etc.)</li>
+            </ul>
+            <h2>How to Make a Burger</h2>
+            <ol>
+                <li>Grill the beef patty.</li>
+                <li>Toast the burger bun.</li>
+                <li>Add lettuce, tomato, and cheese.</li>
+                <li>Place the beef patty inside the bun.</li>
+                <li>Add condiments and serve!</li>
+            </ol>
+            <h2>Fun Facts</h2>
+            <p>The world's largest burger weighted over 2,500 pounds!</p>
+        </div>
+        <div class="hide-and-seek">
+            <h1>Hide and Seek</h1>
+            <p>I am hiding in the code, can you find me?</p>
+        </div>
+        <br><br>
+    </div>
+</body>
+
+</html>

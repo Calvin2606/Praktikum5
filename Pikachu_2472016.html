@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pikachu</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        footer{
+            text-align: center;
+            Background-color : rgb(251, 182, 54);
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            z-index: 3;
+            height: 40px;
+            padding-bottom: 20px;
+            font-size: x-large;
+        }
+        hr{
+            width:950px;
+            height: 3px;
+            background-color: black;
+        }
+        body{
+            background-color: beige;
+            margin: 0px;
+            font:arial
+        }
+        .item{
+            background-color:rgb(64, 138, 64);
+            border: 5px solid black;
+        }
+        .text{
+            position: relative;
+            background-color: beige;
+            text-align: center;
+        }
+        #mata-kanan{
+            position: relative;
+            top: 250px;
+            left: 130px;
+        }
+        #mata-kiri{
+            position: relative;
+            top: 250px;
+            left: 230px;
+        }
+        #hidung{
+            position: relative;
+            top: 280px;
+            left: 130px;
+        }
+        #pipi-kiri{
+            position: relative;
+            top: 290px;
+            left: -150px;
+        }
+        #pipi-kanan{
+            position: relative;
+            top: 290px;
+            left: 120px;
+        }
+        #mulut{
+            position: relative;
+            top: 350px;
+            left: 80px;
+        }
+        td{
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Position Relative With CSS</h1>
+    <hr>
+    <br>
+    <table align="center">
+        <tr>
+            <td class="item">
+                <img src="mata-kanan.png">
+                <img src="mata-kiri.png">
+                <img src="hidung.png">
+                <img src="Mulut.png">
+                <img src="pipi-kanan.png">
+                <img src="pipi-kiri.png">
+                <p><img class="" id="badan" src="badan_pikachu.png"></p>
+            </td>
+            <td class="item">
+                <img id="mata-kanan" src="mata-kanan.png">
+                <img id="mata-kiri" src="mata-kiri.png">
+                <img id="hidung" src="hidung.png">
+                <img id="mulut" src="Mulut.png">
+                <img id="pipi-kanan" src="pipi-kanan.png">
+                <img id="pipi-kiri" src="pipi-kiri.png">
+                <p><img id="badan" src="badan_pikachu.png"></p>
+            </td>
+        </tr>
+        <tr>
+            <td class="text">
+               <p>Sebelum CSS</p>
+            </td>
+            <td class="text">
+                <p>Setelah CSS</p>
+            </td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <footer><p><b>2472005_Reyner Cornelius</b></p></footer>
+</body>
+</html>
